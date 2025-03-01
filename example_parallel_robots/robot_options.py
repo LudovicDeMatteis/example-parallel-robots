@@ -129,6 +129,13 @@ class BattoBot:
     free_flyer = True
 
 
+class CleoBot:
+    path = "virgile_leg"
+    urdf_file = "robot.urdf"
+    yaml_file = "robot.yaml"
+    free_flyer = True
+
+
 ROBOTS = {
     "5bar": FiveBarLinkage,
     "5bar3d": FiveBarLinkageIso3D,
@@ -149,4 +156,5 @@ ROBOTS = {
     "talos_leg": TalosLeg,
     "wl16_leg": WL16,
     "battobot": BattoBot,
+    "cleobot": CleoBot,
 }

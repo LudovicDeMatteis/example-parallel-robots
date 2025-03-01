@@ -1,0 +1,8 @@
+{
+    "documentId": "d886113bec72607bfaca533f",
+    "outputFormat": "urdf",
+    "assemblyName":"squellette_urdf",
+    "ignore":[
+        "Fram1e","sphere"
+    ],
+}

@@ -1,0 +1,64 @@
+closed_loop:
+  [
+    ["closedloop_1A", "closedloop_1B"],
+    ["closedloop_2A", "closedloop_2B"],
+    ["closedloop_3A", "closedloop_3B"],
+    ["closedloop_4A", "closedloop_4B"],
+    ["closedloop_5A", "closedloop_5B"],
+    ["closedloop_6A", "closedloop_6B"],
+    ["closedloop_7A", "closedloop_7B"],
+    ["closedloop_8A", "closedloop_8B"],
+  ]
+type: ["6d", "6d", "6d", "6d", "6d", "6d","6d","6d"]
+name_mot:
+  [
+    "hipz_left",
+    "motor1_left",
+    "motor2_left",
+    "motor3_left",
+    "motor4_left",
+    "motor5_left",
+    "hipz_right",
+    "motor1_right",
+    "motor2_right",
+    "motor3_right",
+    "motor4_right",
+    "motor5_right",
+  ]
+# name_mot: ['left_hip_x', 'left_hip_y', 'left_hip_z', 'left_free_knee', 'left_free_ankle_x', 'left_free_ankle_y','right_hip_x', 'right_hip_y', 'right_hip_z', 'right_free_knee', 'right_free_ankle_x', 'right_free_ankle_y',]
+
+joint_name:
+  [
+    "spherical_foot1_left",
+    "spherical_foot2_left",
+    "spherical_foot3_left",
+    "spherical_foot1_right",
+    "spherical_foot2_right",
+    "spherical_foot3_right",
+    "spherical_hip1_right",
+    "spherical_hip2_right",
+    "spherical_hip3_right",
+    "spherical_hip4_right",
+    "spherical_hip1_left",
+    "spherical_hip2_left",
+    "spherical_hip3_left",
+    "spherical_hip4_left",
+  ]
+joint_type:
+  [
+    "SPHERICAL",
+    "SPHERICAL",
+    "SPHERICAL",
+    "SPHERICAL",
+    "SPHERICAL",
+    "SPHERICAL",
+    "SPHERICAL",
+    "SPHERICAL",
+    "UJOINT_ZY",
+    "UJOINT_ZY",
+    "SPHERICAL",
+    "SPHERICAL",
+    "UJOINT_ZY",
+    "UJOINT_ZY",
+  ]
+
